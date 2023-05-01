@@ -22,6 +22,6 @@ public class Switch_Yield {
 	case "orange" -> "Sour fruit";
 	default-> "Undefined fruit";
 	};
-	System.out.println(text);
+	System.out.println("Fruit type is "+text);
  }
 }
