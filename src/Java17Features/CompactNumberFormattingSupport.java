@@ -15,7 +15,7 @@ public class CompactNumberFormattingSupport {
 		System.out.println(nbf.format(1000000));
 		
 		
-NumberFormat nf = NumberFormat.getCompactNumberInstance(Locale.ENGLISH, NumberFormat.Style.LONG);
+		NumberFormat nf = NumberFormat.getCompactNumberInstance(Locale.ENGLISH, NumberFormat.Style.LONG);
 		
 		System.out.println(nf.format(1000));
 		System.out.println(nf.format(100000));
